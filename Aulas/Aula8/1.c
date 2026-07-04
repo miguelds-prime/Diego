@@ -1,14 +1,22 @@
 #include <stdio.h>
 
 int soma (int n) {
-    if (n==0) return 0;
+
+    if (n==0){
+        return 0;
+    }
 
     return n + soma(n-1);
 }
 
-int main (){
+int main() {
 
-    int n=0;
-    scanf("%d", &n);
-    printf ("%d/n", soma(n));
+   int a;
+   scanf("%d", &a);
+
+   if ((a>=0)){
+
+    int r = soma(a);
+    printf ("%d\n", r);
+   }
 }
