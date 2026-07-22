@@ -28,9 +28,9 @@ void calcularPontos(Time times[], int n) {
     }
 }
 
-void imprimirClassificacao(Time times[], int n) {
+void Resultados(Time times[], int n) {
     printf("\n%-20s | %8s\n", "Time", "Pontos");
-    printf("-----------------------------\n");
+    printf("\n");
     for (int i = 0; i < n; i++) {
         printf("%-20s | %8d\n", times[i].nome, times[i].pontos);
     }
@@ -46,11 +46,12 @@ int encontrarLider(Time times[], int n) {
 
 int main() {
     
-    int n = 3;
+    int n;
+    scanf("%d", &n);
     Time times[n];
     lerTimes(times, n);
     calcularPontos(times, n);
-    imprimirClassificacao(times, n);
+    Resultados(times, n);
     int lider = encontrarLider(times, n);
 
     printf("\nLíder: %s (%d pontos)\n", times[lider].nome, times[lider].pontos);

@@ -14,9 +14,12 @@ int main() {
    int a;
    scanf("%d", &a);
 
-   if ((a>=0)){
+   for(int i=a; i>0; i--){
+         printf("%d", i);
 
-    int r = soma(a);
-    printf ("%d\n", r);
+         if(i>1){
+            printf("+");
+         }
    }
+   printf("=%d", soma(a));
 }
