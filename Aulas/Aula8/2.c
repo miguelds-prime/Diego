@@ -14,7 +14,9 @@ int main() {
 int b2;
 int exp2;
 
+printf("Base:");
 scanf ("%d", &b2);
+printf("Expoente:");
 scanf ("%d", &exp2);
 
 printf("Resultado: %d\n", pot(b2, exp2));
