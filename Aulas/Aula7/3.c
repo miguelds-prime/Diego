@@ -2,7 +2,7 @@
 
 int potencia(int b, int exp){
     int r = 1;
-    for (int i = 0; i<exp; i++){
+    for (int i = 0; i < exp; i++){
         r = r*b;
     }
     return r;
