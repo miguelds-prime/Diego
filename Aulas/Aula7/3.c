@@ -28,8 +28,9 @@ int main (){
     
     int num;
 
-    printf ("Digite um número inteiro");
+    printf("Digite um número inteiro: ");
     scanf("%d", &num);
+    
 
     printf("\nRESULTADOS\n");
     printf("Quadrado (%d^2): %d\n", num, potencia (num, 2));
