@@ -21,7 +21,7 @@ int main() {
     int soma = somaVetor(v, 5);
 
     printf("\nResultados\n");
-    printf("Soma com for: %d\n\n", somaf);
+    printf("Soma com for: \n%d\n\n", somaf);
     printf("Soma recursiva:\n%d\n", soma);
 
     if(soma == somaf){
