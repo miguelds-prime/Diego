@@ -1,1 +1,4 @@
-R: Base e o Recursivo
+R: Caso Base e o Caso Recursivo, e eles servem para:
+
+Caso Base: A função não se chama denovo e devolve uma resposta direta. É a Condição de parada
+Caso Recurssivo: A função chama a si mesma com um problema menor, se aproximando de um Caso Base a cada chamada.
