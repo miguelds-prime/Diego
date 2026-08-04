@@ -24,6 +24,6 @@ int main (){
     printf("qual a letra? ");
     scanf(" %c", &l);
 
-    printf("A letra '%c' aparece %d vezes em \"%s\".\n", l, ContarChar(pal, 0, l), pal);
+    printf("A letra '%c' aparece %d vezes em \"%s\"\n", l, ContarChar(pal, 0, l), pal);
 
 }
