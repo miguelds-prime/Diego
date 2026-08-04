@@ -1,0 +1,11 @@
+   R: 9 passos, o pior dos casos seria nos casos mais extremos, ou seja mais dinstantes do meio, sendo 1 ou 512, por isso vamos pegar 1 como base
+
+   256 = primeiro passo
+   128 = segundo passo
+   64 = terceiro passo
+   32 = quarto passo
+   16 = quinto passo
+   8 = sexto passo
+   4 = setimo passo
+   2 = oitavo passo
+   1 = nono passo e passo final
