@@ -2,7 +2,7 @@
 
 int somaVetor(int v[], int n) {
     // Caso-base: vetor vazio
-    if (n <= 0) {
+    if (v <= 0) {
         return 0;
     }
     
@@ -21,15 +21,19 @@ int main() {
     }
 
     int v[a];
+    
 
-    printf("Digite os %d numeros do vetor:\n", a);
+    if(v[a]>0){
+     printf ("Digite todos os %d números:\n", a);
+    }
+
     for (int i = 0; i < a; i++) {
         printf("Elemento %d: ", i + 1);
         scanf("%d", &v[i]);
     }
 
     int r = somaVetor(v, a);
-    printf("\nA soma de todos os elementos e: %d\n", r);
 
-    return 0;
+        printf("\nA soma de todos os elementos e: %d\n", r);
+    
 }
